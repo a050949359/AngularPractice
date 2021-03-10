@@ -1,0 +1,6 @@
+<div class="zippy">
+    <div (click)="toggle()">按我顯示</div>
+    <div [hidden]="!visible">
+      <ng-content></ng-content>
+    </div>
+ </div>
